@@ -1,5 +1,11 @@
 # pyCat
 Simple python-based client/server for interacting with remote systems.
+No installation necessary. 
+Just drop and run.
+
+WARNING!
+---------
+You will be opening up a system to remote command execution if you run this!
 
 Why pyCat?
 ----------
