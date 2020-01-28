@@ -21,7 +21,5 @@ Plus sometimes the shells I get using...
 
 So, I found myself wanting to have a stand-alone executable of Netcat for Linux systems, but didn't find one after searching for a **SOLID** 10 minutes. It also had the added benefit of being a good way to learn more Python.
 
-I will be attempting to make this work on Windows operating systems, so keep an eye out for that version soon.
-
 
 Thanks to **Justin** for helping me debug the socket connection.
