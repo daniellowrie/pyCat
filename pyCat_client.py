@@ -14,7 +14,7 @@ def sender():
             userin = input('~pyCat Client~$ ')
             cmds = (userin + stderr).encode()
             s.sendall(cmds)
-            data = s.recv(1024)
+            data = s.recv(65536)
             print (data.decode())
             main()
 
